@@ -4,21 +4,21 @@ import './App.css';
 // import FifaTourney from './Components/FifaTourney/FifaTourney';
 // import Context from './Components/Context/Context';
 import CartExercise from './Components/CartExercise/CartExercise';
-import { getAllProds } from './Components/CartExercise/CartContext'
+
 
 function App() {
 
-  const fetchAllProds = (e) => {
-    getAllProds()
-    .then(response => {
-      console.log(response);
-      });
-  }
+  // const fetchAllProds = (e) => {
+  //   GlobalProds()
+  //   .then(response => {
+  //     console.log(response);
+  //     });
+  // }
 
   return (
     <div className='App'>
       {/* <Context /> */}
-      <CartExercise />
+        <CartExercise />
       {/* <Buttons /> */}
       {/* <FifaTourney /> */}
     </div>
